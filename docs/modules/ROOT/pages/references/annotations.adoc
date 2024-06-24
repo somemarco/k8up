@@ -25,7 +25,7 @@ See xref:references/operator-config-reference.adoc[Operator Configuration refere
 |`BACKUP_BACKUPCOMMANDANNOTATION`
 
 |`k8up.io/file-extension`
-|The output of the `k8up.syn.tool/backupcommand` annotation is written to a file in order for it to be backed up.
+|The output of the `k8up.io/backupcommand` annotation is written to a file in order for it to be backed up.
  This annotation defines the file extension of that string.
 |A string which is valid file-extension on the source system, for example `.sql`.
 |`Pod`
